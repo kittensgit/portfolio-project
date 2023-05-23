@@ -21,15 +21,11 @@ function Navbar() {
                     </button>
 
                     <ul className="nav-list">
-                        <li className="nav-list__item"><NavLink to={'/'} className={({ isActive }) => {
-                            return isActive ? activeLink : normalLink
-                        }}>Home</NavLink></li>
-                        <li className="nav-list__item"><NavLink to={'/projects'} className={({ isActive }) => {
-                            return isActive ? activeLink : normalLink
-                        }}>Projects</NavLink></li>
-                        <li className="nav-list__item"><NavLink to={'/contacts'} className={({ isActive }) => {
-                            return isActive ? activeLink : normalLink
-                        }}>Contacts</NavLink></li>
+                        <li className="nav-list__item"><NavLink to={'/'} className={({ isActive }) => isActive ? activeLink : normalLink
+                        }>Home</NavLink></li>
+                        <li className="nav-list__item"><NavLink to={'/projects'} className={({ isActive }) => isActive ? activeLink : normalLink
+                        }>Projects</NavLink></li>
+                        <li className="nav-list__item"><NavLink to={'/contacts'} className={({ isActive }) =>  isActive ? activeLink : normalLink}>Contacts</NavLink></li>
                     </ul>
                 </div>
             </div>

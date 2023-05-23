@@ -22,8 +22,7 @@ export default function ProjectPage() {
           <div className="project-details__desc">
             <p>Skills: {project.skills}</p>
           </div>
-
-          <BtnGitHub link='https://github.com' />
+          {project.githubLink && <BtnGitHub link='https://github.com' /> }
         </div>
       </div>
     </main>
