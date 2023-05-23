@@ -11,8 +11,9 @@ export default function Projects() {
                 <div className="container">
                     <h2 className="title-1">Projects</h2>
                     <ul className="projects">
-                        {projects.map((p, index) => <Project key={index} title={p.title}  img={p.img}/>)}
-
+                        {projects.map((p, index) => <Project 
+                        key={index} title={p.title}  img={p.img} index={index}
+                        />)}
                     </ul>
                 </div>
             </main></div>
