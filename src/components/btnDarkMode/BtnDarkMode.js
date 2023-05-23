@@ -1,14 +1,14 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import './style.css'
 import sun from './sun.svg'
 import moon from './moon.svg'
+import { useLocalStorage } from '../../utils/useLoacalStorage'
 
 export default function BtnDarkMode() {
 
-    const [darkMode, setDarkMode] = useState('light')
-
+    const [darkMode, setDarkMode] = useLocalStorage('darkMode', 'light')
     const btnRef = useRef(null)
-
+    
     useEffect(() => {
         if (darkMode === 'dark') {
             document.body.classList.add('dark')
