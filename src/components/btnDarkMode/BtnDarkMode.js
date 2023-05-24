@@ -24,7 +24,7 @@ export default function BtnDarkMode() {
                 const newColorScheme = event.matches ? "dark" : "light";
                 setDarkMode(newColorScheme)
             });
-    }, [])
+    }, [setDarkMode])
 
     const toggleDarkMode = () => {
         setDarkMode((currentValue) => {
