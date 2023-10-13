@@ -1,55 +1,87 @@
-import project01 from './../img/projects/assasin.png';
-import project01Big from './../img/projects/assasin.png';
-import project02 from './../img/projects/medical.png';
-import project02Big from './../img/projects/02-big.jpg';
-import project03 from './../img/projects/tic-tac-toe.png';
-import project03Big from './../img/projects/03-big.jpg';
-import project04 from './../img/projects/calc.png';
-import project04Big from './../img/projects/04-big.jpg';
-import project05 from './../img/projects/coffee.png';
-import project05Big from './../img/projects/05-big.jpg';
-import project06 from './../img/projects/cart.png';
-import project06Big from './../img/projects/06-big.jpg';
+import assasin from './../img/projects/assasin.png';
+import medical from './../img/projects/medical.png';
+import tic_tac_toe from './../img/projects/tic-tac-toe.png';
+import todo_calorie from './../img/projects/todo-calorie.png';
+import coffee from './../img/projects/coffee.png';
+import cart from './../img/projects/cart.png';
+import watchlist from './../img/projects/watchlist.png';
+import agecalc from './../img/projects/agecalc.png';
+import gallery from './../img/projects/gallery.png';
+import parallax from './../img/projects/parallax.png';
+import lofthouse from './../img/projects/lofthouse.png';
+import cool_design from './../img/projects/cool-design.png';
 
 export const projects = [
     {
         title: 'Gaming streaming portal',
-        skills: 'React, Node.js',
-        img: project01,
-        imgBig: project01Big,
+        skills: 'React, MaterialUI',
+        img: todo_calorie,
         githubLink: 'https://github.com',
     },
     {
         title: 'Video service',
         skills: 'React, Node.js',
-        img: project02,
-        imgBig: project02Big,
+        img: agecalc,
         githubLink: 'https://github.com',
     },
     {
         title: 'Video portal',
         skills: 'React, Node.js',
-        img: project03,
-        imgBig: project03Big,
+        img: cart,
         githubLink: 'https://github.com',
     },
     {
         title: 'Dating app',
         skills: 'React, Node.js',
-        img: project04,
-        imgBig: project04Big,
+        img: watchlist,
+        githubLink: 'https://github.com',
     },
     {
         title: 'Landing',
         skills: 'React, Node.js',
-        img: project05,
-        imgBig: project05Big,
+        img: tic_tac_toe,
+        githubLink: 'https://github.com',
+    },
+    {
+        title: 'Gaming community',
+        skills: 'HTML, CSS',
+        img: coffee,
         githubLink: 'https://github.com',
     },
     {
         title: 'Gaming community',
         skills: 'React, Node.js',
-        img: project06,
-        imgBig: project06Big,
+        img: assasin,
+        githubLink: 'https://github.com',
+    },
+    {
+        title: 'Gaming community',
+        skills: 'React, Node.js',
+        img: parallax,
+        githubLink: 'https://github.com',
+    },
+    {
+        title: 'Gaming community',
+        skills: 'React, Node.js',
+        img: cool_design,
+        githubLink: 'https://github.com',
+    },
+    {
+        title: 'Gaming community',
+        skills: 'React, Node.js',
+        img: medical,
+        githubLink: 'https://github.com',
+    },
+    {
+        title: 'Gaming community',
+        skills: 'React, Node.js',
+        img: lofthouse,
+        githubLink: 'https://github.com',
+    },
+    {
+        title: 'Gaming community',
+        skills: 'React, Node.js',
+        img: gallery,
+        githubLink: 'https://github.com',
     },
 ];

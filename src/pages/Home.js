@@ -12,8 +12,8 @@ function Home() {
                             <h2 className="title-2">Frontend</h2>
                             <p>
                                 JavaScript, TypeScript, ReactJS, Redux, Redux
-                                Toolkit, HTML, CSS, NPM, BootStrap, MaterialUI,
-                                TailwindCSS, StyledComponents
+                                Toolkit, HTML, CSS, NPM, Vite, BootStrap,
+                                MaterialUI, TailwindCSS, StyledComponents
                             </p>
                         </li>
                         <li className="content-list__item">
