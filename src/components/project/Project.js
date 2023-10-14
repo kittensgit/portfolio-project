@@ -1,6 +1,6 @@
-import React from 'react'
-import './style.css'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import './style.css';
+import { NavLink } from 'react-router-dom';
 
 export default function Progect({ title, img, index }) {
     return (
@@ -10,5 +10,5 @@ export default function Progect({ title, img, index }) {
                 <h3 className="project__title">{title}</h3>
             </li>
         </NavLink>
-    )
+    );
 }

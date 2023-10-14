@@ -15,17 +15,19 @@ export default function ProjectPage() {
                 <div className="project-details">
                     <h1 className="title-1">{project.title}</h1>
 
-                    <img
-                        src={project.img}
-                        alt=""
-                        className="project-details__cover"
-                    />
+                    <a href={project.ghPage} target="_blank">
+                        <img
+                            src={project.img}
+                            alt={project.title}
+                            className="project-details__cover"
+                        />
+                    </a>
 
                     <div className="project-details__desc">
                         <p>Skills: {project.skills}</p>
                     </div>
                     {project.githubLink && (
-                        <BtnGitHub link="https://github.com" />
+                        <BtnGitHub link={project.githubLink} />
                     )}
                 </div>
             </div>
