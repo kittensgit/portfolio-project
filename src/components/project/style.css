@@ -9,6 +9,8 @@
 
 .project__img {
     border-radius: 10px;
+    height: 185px;
+    width: 370px;
 }
 
 .project__title {

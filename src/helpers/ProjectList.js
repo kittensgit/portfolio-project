@@ -13,6 +13,9 @@ import cool_design from './../img/projects/cool-design.png';
 import pomodoro from './../img/projects/pomodoro.png';
 import memory_game from './../img/projects/memory-game.png';
 import quiz from './../img/projects/quiz.png';
+import card_hover from './../img/projects/card-hover.png';
+import gradient_card from './../img/projects/gradient-card.png';
+import scroll from './../img/projects/scroll.png';
 
 export const projects = [
     {
@@ -20,8 +23,7 @@ export const projects = [
         skills: 'React, React Router, MaterialUI, Chart.js, react-chartjs-2',
         img: todo_calorie,
         githubLink: 'https://github.com/kittensgit/my-todo',
-
-        ghPage: 'https://github.com/kittensgit/',
+        ghPage: 'https://kittensgit.github.io/my-todo/',
     },
     {
         title: 'Age Calculator',
@@ -34,16 +36,15 @@ export const projects = [
         title: 'Ecommerce App',
         skills: 'React, React Router, Redux, Bootstrap, React Bootstrap, react-loading-skeleton',
         img: cart,
-        githubLink: 'https://github.com/kittensgit/shopping-cart',
-
-        ghPage: 'https://github.com/kittensgit/',
+        githubLink: 'https://github.com/kittensgit/ecommerce-app',
+        ghPage: 'https://kittensgit.github.io/ecommerce-app',
     },
     {
         title: 'Movie Watchlist',
         skills: 'React, React Router',
         img: watchlist,
-        githubLink: 'https://github.com/kittensgit/movie-watchlist',
-        ghPage: 'https://kittensgit.github.io/movie-watchlist/',
+        githubLink: 'https://github.com/kittensgit/watchlist',
+        ghPage: 'https://kittensgit.github.io/watchlist/',
     },
     {
         title: 'Tic Tac Toe',
@@ -71,8 +72,7 @@ export const projects = [
         skills: 'React, React Router, Redux, MaterialUI, axios',
         img: quiz,
         githubLink: 'https://github.com/kittensgit/quiz-app',
-
-        ghPage: 'https://github.com/kittensgit/',
+        ghPage: 'https://kittensgit.github.io/quiz-app/',
     },
     {
         title: 'Coffee Shop',
@@ -87,6 +87,20 @@ export const projects = [
         img: assasin,
         githubLink: 'https://github.com/kittensgit/assassin',
         ghPage: 'https://kittensgit.github.io/assassin/',
+    },
+    {
+        title: 'Gradient Card',
+        skills: 'HTML, CSS',
+        img: gradient_card,
+        githubLink: 'https://github.com/kittensgit/gradient-card',
+        ghPage: 'https://kittensgit.github.io/gradient-card/',
+    },
+    {
+        title: 'Awesome Scroll With Sound',
+        skills: 'HTML, CSS, JS',
+        img: scroll,
+        githubLink: 'https://github.com/kittensgit/scroll',
+        ghPage: 'https://kittensgit.github.io/scroll/',
     },
     {
         title: 'Parallax Effect',
@@ -114,8 +128,7 @@ export const projects = [
         skills: 'HTML, SCSS, JS, youtubeLightbox',
         img: lofthouse,
         githubLink: 'https://github.com/kittensgit/loft-house',
-
-        ghPage: 'https://github.com/kittensgit/',
+        ghPage: 'https://kittensgit.github.io/loft-house/',
     },
     {
         title: 'Gallery',
@@ -123,5 +136,12 @@ export const projects = [
         img: gallery,
         githubLink: 'https://github.com/kittensgit/gallery-n',
         ghPage: 'https://kittensgit.github.io/gallery-n/',
+    },
+    {
+        title: 'Card Hover',
+        skills: 'HTML, CSS',
+        img: card_hover,
+        githubLink: 'https://github.com/kittensgit/card-hover',
+        ghPage: 'https://kittensgit.github.io/card-hover/',
     },
 ];
