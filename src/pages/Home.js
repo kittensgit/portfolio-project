@@ -1,7 +1,8 @@
 import React from 'react';
+
 import Header from './../components/header/Header';
 
-function Home() {
+const Home = () => {
     return (
         <div>
             <Header />
@@ -25,6 +26,6 @@ function Home() {
             </main>
         </div>
     );
-}
+};
 
 export default Home;

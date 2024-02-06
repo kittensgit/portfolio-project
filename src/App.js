@@ -1,4 +1,3 @@
-import './styles/main.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/navbar/Navbar';
@@ -9,7 +8,9 @@ import Contacts from './pages/Contacts';
 import ProjectPage from './pages/ProjectPage';
 import ScrollToTop from './utils/ScrollToTop';
 
-function App() {
+import './styles/main.css';
+
+const App = () => {
     return (
         <div className="App">
             <Router>
@@ -25,6 +26,6 @@ function App() {
             </Router>
         </div>
     );
-}
+};
 
 export default App;

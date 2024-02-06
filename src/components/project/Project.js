@@ -1,8 +1,9 @@
 import React from 'react';
-import './style.css';
 import { NavLink } from 'react-router-dom';
 
-export default function Progect({ title, img, index }) {
+import './Project.css';
+
+const Project = ({ title, img, index }) => {
     return (
         <NavLink to={`/project/${index}`}>
             <li className="project">
@@ -11,4 +12,6 @@ export default function Progect({ title, img, index }) {
             </li>
         </NavLink>
     );
-}
+};
+
+export default Project;

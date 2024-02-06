@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import BtnDarkMode from '../btnDarkMode/BtnDarkMode';
-import './style.css';
 
-function Navbar() {
+import BtnDarkMode from '../btnDarkMode/BtnDarkMode';
+
+import './Navbar.css';
+
+const Navbar = () => {
     const activeLink = 'nav-list__link nav-list__link--active';
     const normalLink = 'nav-list__link';
 
@@ -53,6 +55,6 @@ function Navbar() {
             </div>
         </nav>
     );
-}
+};
 
 export default Navbar;

@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-//@ts-ignore
+
 import BtnGitHub from '../components/btnGitHub/BtnGitHub';
 import { projects } from '../helpers/ProjectList';
 
-export default function ProjectPage() {
+const ProjectPage = () => {
     const { id } = useParams();
 
     const project = projects[id];
@@ -15,7 +15,7 @@ export default function ProjectPage() {
                 <div className="project-details">
                     <h1 className="title-1">{project.title}</h1>
 
-                    <a href={project.ghPage} target="_blank">
+                    <a href={project.ghPage} target="_blank" rel="noreferrer">
                         <img
                             src={project.img}
                             alt={project.title}
@@ -33,4 +33,6 @@ export default function ProjectPage() {
             </div>
         </main>
     );
-}
+};
+
+export default ProjectPage;

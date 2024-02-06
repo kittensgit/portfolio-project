@@ -1,8 +1,9 @@
 import React from 'react';
+
 import Project from '../components/project/Project';
 import { projects } from '../helpers/ProjectList';
 
-export default function Projects() {
+const Projects = () => {
     return (
         <div>
             <main className="section">
@@ -22,4 +23,6 @@ export default function Projects() {
             </main>
         </div>
     );
-}
+};
+
+export default Projects;

@@ -1,11 +1,12 @@
 import React from 'react';
 
-import './style.css';
 import github from './../../img/icons/gitHub.svg';
 import linkedIn from './../../img/icons/linkedIn.svg';
 import instagram from './../../img/icons/instagram.svg';
 
-export default function Footer() {
+import './Footer.css';
+
+const Footer = () => {
     return (
         <footer className="footer">
             <div className="container">
@@ -20,6 +21,7 @@ export default function Footer() {
                             <a
                                 href="https://www.linkedin.com/in/nika-posh/"
                                 target="_blank"
+                                rel="noreferrer"
                             >
                                 <img src={linkedIn} alt="Link" />
                             </a>
@@ -40,4 +42,6 @@ export default function Footer() {
             </div>
         </footer>
     );
-}
+};
+
+export default Footer;

@@ -1,12 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-import githubIcon from "./gitHub-black.svg"
+import githubIcon from './gitHub-black.svg';
 
-export default function BtnGitHub({link}) {
+const BtnGitHub = ({ link }) => {
     return (
-        <a href={link} rel='noreferrer' target='_blank' className="btn-outline">
+        <a href={link} rel="noreferrer" target="_blank" className="btn-outline">
             <img src={githubIcon} alt="" />
             GitHub repo
         </a>
-    )
-}
+    );
+};
+
+export default BtnGitHub;
